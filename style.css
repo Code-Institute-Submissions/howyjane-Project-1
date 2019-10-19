@@ -1,0 +1,135 @@
+nav{background-color:black;
+font-family:Arial;
+}
+
+li a {display:block;
+  color:white;
+  text-decoration: none;
+}
+  
+li a:hover {background-color: rgba(1, 1, 1, 0.041);
+  
+}
+
+#logo{font-size: 15px;
+}
+
+#logo1{font-size: 30px;
+}
+
+.content-wrapper{
+  background-color:rgb(1, 1, 1,0.3);
+  height:180vh;
+    
+  /* Text styles */
+  text-align: left;
+  color:white;
+  font-size:1.09em;
+  font-family:Arial;
+  
+
+  /* Background styles */
+  background-image: url(https://responsive.fxempire.com/cover/615x410/n/_fxempire_/2019/10/iStock-1028974962.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+  
+
+.container{
+  background-color:rgba(0, 0, 0, 0.39);
+  padding:0 15px 30px;
+  }
+
+.nav-tabs .nav-link {
+  
+  border-color: rgba(224, 224, 109, 0.329);
+  font-size:13px;
+  font-weight:bold;
+  }
+
+.valid-feedback, .invalid-feedback {font-weight:bolder;
+}
+
+span.note{color:goldenrod;
+text-align:left;
+font-size:1.09em;
+font-weight:bolder;
+line-height:1cm;
+}
+
+.note1{color: goldenrod;
+font-size:40px;
+font-weight:bolder;
+line-height:2cm;
+
+}
+
+.graph{
+  width: 100%;
+}
+
+.carousel-item { 
+  height: 120vh ;
+  text-align: center;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.first button{
+ border:1px  solid #F97300;
+ background:#F97300;
+ color:#fff;
+}
+ 
+
+#mobile-footer {
+  color:white;
+    /* position: fixed;
+    bottom: 0; */
+    width: 100%;
+    background-color:black;
+    height:60px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color:#F97300;
+    border-color: beige;
+}
+
+
+.invest1{
+font-size:45px;
+font-weight:bold;
+font-family:courier New;
+}
+
+.para2{color:goldenrod;
+  font-size:45px;
+  font-weight:bolder;
+  line-height:1.3em;
+  font-family:Courier New;
+  margin-bottom:-5%;
+  
+ }
+
+.help{
+margin-top:10%;
+margin-bottom:10%;
+}
+
+.para3{color:white;
+  font-size:45px;
+  font-weight:bolder;
+  line-height:1.3em;
+  font-family:Courier New;
+  margin-bottom:-5%;
+  
+ }
+
