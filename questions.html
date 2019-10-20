@@ -46,32 +46,58 @@
       </div>
     </nav>
 
-  <!-- Content tab area -->
+<!-- Content tab area -->
     <div class="content-wrapper">
-     <div class="container">      
-     <br>
-       
-  <!-- Nav tabs -->
-    <ul class="nav nav-tabs" role="tablist">
-        <li class="nav-item">
-        <a class="nav-link">Ask Us</a>
-         </li>
-    </ul>
-      
-  <!-- Footer -->
-  <footer id="mobile-footer">
-    <div class="row">
-      <div class="text-right col-lg-12 col-sm-12">              
-      <a href="https://sg.linkedin.com/"><img src="https://www.iconsdb.com/icons/preview/gray/linkedin-3-xxl.png" width="20" height="20" alt="Linkedin"></a>
-      <a href="https://www.instagram.com/accounts/login/"><img src="https://seeklogo.com/images/I/instagram-logo-98138B5E5A-seeklogo.com.png" width="20" height="20" alt="instagram"></a>
-      </div>
+      <div class="container">      
+      <br>
+      <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link">Ask Us</a>
+          </li>
+        </ul>
 
-  <!-- Copyright -->
-      <div class="text-right col-lg-12 col-sm-12 fun">
-      <p>&copy; Invest Gold Pte Ltd | All Rights Reserved </p>
-      </div>     
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div id="home" class="tab-pane active"><br/>
+            <form action="/action_page.php" class="was-validated">
+              <div class="form-group">
+              <label for="comment">Your Questions:</label>
+              <textarea class="form-control" rows="3" id="comment"></textarea>
+              </div>
+              <div class="form-group">
+              <label for="uname">Your Name:</label>
+              <input type="text" class="form-control" id="uname" placeholder="Enter Your Name" name="uname" required>
+              <div class="valid-feedback">Valid.</div>
+              <div class="invalid-feedback">Please fill out this field.</div>
+              </div>
+              <div class="form-group">
+              <label for="email">Email address:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter email address" name="email" required>
+              <div class="valid-feedback">Valid.</div>
+              <div class="invalid-feedback">Please fill out this field.</div>
+              </div>
+              <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
-  </footer>
+ 
+  <!-- Footer -->
+    <footer id="mobile-footer">
+        <div class="row">
+          <div class="text-right col-lg-12 col-sm-12">              
+            <a href="https://sg.linkedin.com/"><img src="https://www.iconsdb.com/icons/preview/gray/linkedin-3-xxl.png" width="20" height="20" alt="Linkedin"></a>
+            <a href="https://www.instagram.com/accounts/login/"><img src="https://seeklogo.com/images/I/instagram-logo-98138B5E5A-seeklogo.com.png" width="20" height="20" alt="instagram"></a>
+          </div>
+          
+    <!-- Copyright -->
+          <div class="text-right col-lg-12 col-sm-12 fun">
+          <p>&copy; Invest Gold Pte Ltd | All Rights Reserved </p>
+          </div>     
+        </div>
+    </footer>
   
   <!-- Script below -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
