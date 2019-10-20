@@ -18,7 +18,7 @@ li a:hover {background-color: rgba(1, 1, 1, 0.041);
 }
 
 .content-wrapper{
-  background-color:rgb(1, 1, 1,0.3);
+  background-color:rgba(1, 1, 1,0.3);
   height:180vh;
     
   /* Text styles */
@@ -72,7 +72,7 @@ line-height:2cm;
 }
 
 .carousel-item { 
-  height: 120vh ;
+  height: 118vh ;
   text-align: center;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
