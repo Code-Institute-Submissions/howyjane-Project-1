@@ -1,4 +1,5 @@
 # Project-1
+
 First Coding Project: User-Centric Frontend Development - Code Institute
 
 This is my first coding project. In this project I have created a new website for a start-up consultancy firm which provides advisory and consultancy for 2 investment products : Gold ETFS and Gold Futures. 
@@ -29,6 +30,7 @@ Non investors who are curious about Gold ETFs and Gold Futures and wants to read
 Using the user the above user stories and the project brief I identified the following requirements:
 
 i)Functional Requirements
+
 The Project must be a series of static webpages with multiple sections
 The webpages must work in a range of browsers
 Across a range of different devices, mobiles, phablets, tablets, laptops, desktops
@@ -39,39 +41,46 @@ The site should be intuitive to use
 The site should be eye-catching and easy to read/use
 
 ii)Content Requirements
+
 The project will need to include text content
 The project will need to contain images.
 The project will need a navigation carousels to help people NAVIGATE my website, not primarily to showcase content.
 The project will need a form for users to send questions.
 
 iii)Structure
+
 After considering the scope of my project I decided that it would be better to approach the project as a series of webpages as opposed to a single long pages in multiple sections. It is easier for users to view my content via navigation tabs hence I decided to structure my website as multiple pages.
 
 The pages I included are:
 
-Home - The landing page : We use a navigation carousel to provide links to all the other subsequent pages.
+- Home - The landing page : We use a navigation carousel to provide links to all the other subsequent pages.
 
-Products - A page with different navigation tabs for users to learn more about Gold ETFs and Gold Futures.
+- Products - A page with different navigation tabs for users to learn more about Gold ETFs and Gold Futures.
 
-News -This page is wehre users can read more about the latest trending news regarding Gold investments. We use a 3 column grid layout to segment each article and provided hyperlinks for each article.
+- News -This page is wehre users can read more about the latest trending news regarding Gold investments. We use a 3 column grid layout to segment each article and provided hyperlinks for each article.
 
-About Us - For users to find out more about our company and what we do. 
+- About Us - For users to find out more about our company and what we do. 
 
-Questions - For users to send us an email if they have any questions regarding our services and products.
+- Questions - For users to send us an email if they have any questions regarding our services and products.
 
 The project uses a flat structure and every page is only 1 click away from every other page.
 
 iv)Skeleton
+
 The main wireframe for my site is navigation bar , nav tabs, content, footer in every html. Index Html will include a carousel slider.
 
 v)Surface
-Colors
+
+Colors:
+
 The main colors used is black , white and gold. 
 
 vi)Background Images
+
 Performing an Image search for gold exchange led me to use the images for the background in my websites.
 
 vii)Typeface
+
 Throughout the site I used Arial and Courier New for a more formal read.
 
 viii)Iteractions
@@ -104,16 +113,11 @@ The submit button in the quesiton form is not activated to send actual users inp
 
 Due to the scope of the course, and the stage at which I am at in my development career there are a couple of things that I did not implement. I did not create actual social media accounts for my company, hence the social media links are fictitious.
 
-
 5.Technologies Used
 
 In this project the following technologies have been used:
 
-Bootstrap 4
-
 The Bootstrap 4 framework was used to help layout the webpage.
-
-JQuery
 
 JQuery was used as a part of the Bootstrap 4.
 
@@ -122,6 +126,7 @@ HTML
 CSS
 
 6.Testing
+
 Throughout this project I have done regular testing. And have reloaded the pages a number of times after each addition and modification.
 
 My first round of testing was functionality testing in which I performed the following actions.
